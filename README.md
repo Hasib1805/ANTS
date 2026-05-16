@@ -87,7 +87,7 @@ Dataset preprocessing and visualization was handled using **Roboflow**:
 
 **Sample annotations visualized in Roboflow:**
 
-![Task-01 Sample](https://source.roboflow.com/aVWBSA8wuGdQVPfOXa1VsC0Bf9w1/3SShI3bAYx2RqN9OwzvN/annotation-ANTS.png?v=2026-05-15T19:07:15.242Z)
+![Task-01 Sample](robo.jpeg)
 
 ### Key Challenges
 
