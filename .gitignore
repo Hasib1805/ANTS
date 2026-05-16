@@ -1,0 +1,16 @@
+# Dataset
+VisDrone_Dataset/
+
+# Weights only — keep everything else in runs/
+runs/**/*.pt
+runs/**/last.pt
+runs/**/best.pt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+
+yolo26n.pt
+yolov8s.pt
