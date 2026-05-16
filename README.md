@@ -1,6 +1,4 @@
 # Drone Human Detection & Counting System
-### Antlings AI/ML Internship — Technical Assessment
-
 ---
 
 ## Table of Contents
@@ -23,7 +21,6 @@ A computer vision pipeline that analyzes drone/aerial images to:
 - Track objects across frames using ByteTrack
 
 **Model:** YOLOv8s fine-tuned on VisDrone  
-**Hardware:** NVIDIA RTX 3050  
 **Framework:** Ultralytics YOLOv8
 
 ---
