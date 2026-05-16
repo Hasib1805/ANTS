@@ -176,7 +176,8 @@ results = model.train(
 
 Training stopped at **epoch 90** with best performance at **epoch 88**.
 
-![Training Curves](outputs/task05/training_curves.png)
+![Training Curves](runs/detect/outputs/train_filtered-2/BoxF1_curve.png)
+![PR Curve](runs/detect/outputs/train_filtered-2/BoxPR_curve.png)
 
 Loss consistently decreased across all 90 epochs with no signs of overfitting, indicating the model learned effectively from the VisDrone data.
 
@@ -215,7 +216,7 @@ Simple but effective — counts every valid detection above the confidence thres
 
 ### Sample Detection Output
 
-![Detection Results](outputs/task03/sample_detection.png)
+![Detection Results](task03_outputs/detected_0000074_09738_d_0000019.jpg)
 
 All processed images are saved to `outputs/task03/` with the human count displayed at the top of each image.
 
@@ -247,11 +248,13 @@ All processed images are saved to `outputs/task03/` with the human count display
 
 ### Training Curves
 
-![Training Curves](outputs/task05/training_curves.png)
+![Training Curves](task05_outputs/training_curves.png)
 
 ### Confusion Matrix
 
-![Confusion Matrix](outputs/task05/confusion_matrix.png)
+![Confusion Matrix](runs/detect/outputs/train_filtered-2/confusion_matrix_normalized.png)
+![Precision Curve](runs/detect/outputs/train_filtered-2/BoxP_curve.png)
+![Recall Curve](runs/detect/outputs/train_filtered-2/BoxR_curve.png)
 
 ### Validation Predictions
 
@@ -259,7 +262,7 @@ All processed images are saved to `outputs/task03/` with the human count display
 
 ### Counting Visualization
 
-![Counting Visualization](outputs/task05/counting_visualization.png)
+![Counting Visualization](task05_outputs/counting_visualization.png)
 
 ### Strengths
 
