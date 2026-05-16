@@ -301,19 +301,17 @@ All processed images are saved to `outputs/task03/` with the human count display
 ## Repository Structure
 
 ```
-Antlings/
-├── visdrone_filtered.yaml          ← dataset + project config
-├── visdrone_filtered.example.yaml  ← template (safe to share)
-├── task02_train.ipynb
-├── task03_detect.ipynb
-├── task04_track.ipynb
-├── task05_evaluate.ipynb
-├── outputs/
-│   ├── task01/
-│   ├── task03/
-│   ├── task04/
-│   └── task05/
-└── README.md
+ANTS/
+├── .gitignore
+├── README.md
+├── Task-02.ipynb
+├── Task-03.ipynb
+├── Task-05.ipynb
+├── robo.jpeg
+├── task03_sample.png
+├── runs/
+├── task03_outputs/
+├── task05_outputs/
 ```
 
 ---
