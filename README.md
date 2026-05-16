@@ -173,8 +173,8 @@ results = model.train(
 
 Training stopped at **epoch 90** with best performance at **epoch 88**.
 
-![Training Curves](runs/detect/outputs/train_filtered-2/BoxF1_curve.png)
-![PR Curve](runs/detect/outputs/train_filtered-2/BoxPR_curve.png)
+![Training Curves](runs/detect/val-2/BoxF1_curve.png)
+![PR Curve](runs/detect/val-2/BoxPR_curve.png)
 
 Loss consistently decreased across all 90 epochs with no signs of overfitting, indicating the model learned effectively from the VisDrone data.
 
@@ -249,13 +249,13 @@ All processed images are saved to `outputs/task03/` with the human count display
 
 ### Confusion Matrix
 
-![Confusion Matrix](runs/detect/outputs/train_filtered-2/confusion_matrix_normalized.png)
-![Precision Curve](runs/detect/outputs/train_filtered-2/BoxP_curve.png)
-![Recall Curve](runs/detect/outputs/train_filtered-2/BoxR_curve.png)
+![Confusion Matrix](runs/detect/val-2/confusion_matrix_normalized.png)
+![Precision Curve](runs/detect/val-2/BoxP_curve.png)
+![Recall Curve](runs/detect/val-2/BoxR_curve.png)
 
 ### Validation Predictions
 
-![Validation Predictions](outputs/task05/val_predictions.png)
+![Validation Predictions](runs/detect/val-2/val_batch0_pred.jpg)
 
 ### Counting Visualization
 
